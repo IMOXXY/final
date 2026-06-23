@@ -291,6 +291,41 @@
 
 
 
+
+            updateOrderDistChart(data04) {
+                const chartDom = document.getElementById('echart-order-distribution');
+                if (!chartDom) return;
+                if (!this.orderDistChart) {
+                    this.orderDistChart = echarts.init(chartDom);
+                }
+                const names = data04.map(item => item.desc);
+                const counts = data04.map(item => item.n);
+                const option = {
+                    title: {
+                        text: '当日医囧类型分布',
+                        left: 'center',
+                        top: 10,
+                        textStyle: { fontSize: 14 }
+                    },
+                    tooltip: {},
+                    xAxis: {
+                        type: 'category',
+                        data: names
+                    },
+                    yAxis: { type: 'value' },
+                    series: [{
+                        data: counts,
+                        type: 'bar',
+                        itemStyle: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                { offset: 0, color: '#83adff' },
+                                { offset: 1, color: '#409EFF' }
+                            ])
+                        }
+                    }]
+                };
+                this.orderDistChart.setOption(option);
+            },
         },
         computed: {
             ...mapState(['departmentTreeData','userInfo']),
