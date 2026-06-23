@@ -1,0 +1,44 @@
+Slide size: 12192000x6858000
+Slide count: 117
+Layout count: 21
+
+=== Slide 1 === layout=1_两栏内容
+  Shape 文本框 6: 南京医科大学汇报答辩通用模板
+    pos=(1692206,2440948) size=(8807588,830997)
+    run: "南京医科大学汇报答辩通用模板" sz=609600 b=True c=scheme
+  Shape 文本框 95: 汇报人：南小医  丨  导师：南大医
+    pos=(4014442,3688023) size=(4119038,400110)
+    run: "汇报人：南小医  丨  导师：南大医" sz=254000 b=None c=scheme
+
+=== Slide 2 === layout=1_两栏内容
+  Shape 文本框 6: 南京医科大学汇报答辩通用模板
+    pos=(1692206,3148841) size=(8807588,830997)
+    run: "南京医科大学汇报答辩通用模板" sz=609600 b=True c=scheme
+  Shape 文本框 95: 汇报人：南小医  丨  导师：南大医
+    pos=(4014442,4395916) size=(4119038,400110)
+    run: "汇报人：南小医  丨  导师：南大医" sz=254000 b=None c=scheme
+
+=== Slide 3 === layout=1_两栏内容
+  Shape 文本框 6: 南京医科大学汇报答辩通用模板
+    pos=(1692206,2896749) size=(8807588,830997)
+    run: "南京医科大学汇报答辩通用模板" sz=609600 b=True c=scheme
+  Shape 文本框 95: 汇报人：南小医  丨  导师：南大医
+    pos=(4014442,4143824) size=(4119038,400110)
+    run: "汇报人：南小医  丨  导师：南大医" sz=254000 b=None c=scheme
+  Shape 文本占位符 1: 2019 年 6 月 6 日
+    pos=(5112398,4896648) size=(1967205,341632)
+    run: "2019 " sz=228600 b=None c=inherit
+    run: "年 " sz=228600 b=None c=inherit
+    run: "6 " sz=228600 b=None c=inherit
+    run: "月 " sz=228600 b=None c=inherit
+    run: "6 " sz=228600 b=None c=inherit
+    run: "日" sz=228600 b=None c=inherit
+
+
+=== Looking at slide layouts ===
+  Layout 0: 节标题
+  Layout 1: 空白
+  Layout 2: 竖排标题与文本
+  Layout 3: 1_两栏内容
+  Layout 4: 13_空白
+  Layout 5: 14_空白
