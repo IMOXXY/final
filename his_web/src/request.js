@@ -3,7 +3,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'http://10.5.19.145:5003',
+  baseURL: '',
   withCredentials: true
 })
 
